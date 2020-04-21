@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+metadata:
+  name: weather-app
+build:
+  artifacts:
+    - image: gcr.io/poised-octane-241023/weather-app
+deploy:
+  kubectl:
+    manifests:
+    - kubernetes/weather-app.deployment.yaml
+    - kubernetes/weather-app.service.yaml
