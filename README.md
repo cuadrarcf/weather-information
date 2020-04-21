@@ -1,6 +1,5 @@
 ## Weather App
-\- This aps help to se how you how is the weather near you.
-
+Weather Single Page Application.
 
 
 #### Instructions
@@ -25,13 +24,14 @@ or you can see the demo online
 - Redux-Sagas
 - Axios
 - HTML5 Localization API
+- Mobile Friendly for (PWA)
 - Ant Design
 - ES6+ JavaScript
 - Node.js
 - Jest
 - Docker
 - Kubernetes
-- Google Cloud Build (CI/CD)
+- Google Cloud Build (CI/CD) 
 
 
 #### Reference
