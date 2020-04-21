@@ -39,7 +39,6 @@ class AlertsContainer extends React.Component {
             </AppContent>
         );
     }
-
 }
 
 export default connect(
