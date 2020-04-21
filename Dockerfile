@@ -1,7 +1,7 @@
 # Use base node 8 image from Docker hub
-FROM node:8
+FROM node:12-slim
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Copy package.json and install dependencies
 COPY package*.json ./
@@ -17,4 +17,4 @@ RUN npm run build
 #ENTRYPOINT ["node", "--inspect=9229", "src/index.js"]
 
 EXPOSE 5000
-ENTRYPOINT ["npm", "run", "serve"]
+CMD ["npm", "run", "serve"]

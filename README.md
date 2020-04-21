@@ -14,7 +14,7 @@ You can download the code and run it locally.
 or you can see the demo online
 
 #### Demo
-[Hosted in Google Cloud](https://nginx-demo-idcnxswldq-uk.a.run.app)
+[Hosted in Google Cloud](https://weather-app-idcnxswldq-ue.a.run.app)
 
 
 ### Tech Stack
